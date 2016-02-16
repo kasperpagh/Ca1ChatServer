@@ -31,7 +31,7 @@ public class Server
 
     public void connect()
     {
-        //Lad disse bliver sta fra server.properties filen (se fredagsopgave 12/2)
+        //Lad disse bliver sat fra server.properties filen i project root (se fredagsopgave 12/2)
         ip = properties.getProperty("serverIp");
         port = Integer.parseInt(properties.getProperty("port"));
 
